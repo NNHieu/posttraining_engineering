@@ -1,0 +1,51 @@
+{
+  "rank": 0,
+  "gpu_ids": [
+    "6"
+  ],
+  "warmup_steps": 2,
+  "profile_steps": 3,
+  "mean_step_seconds": 17.81577272200957,
+  "measurements": [
+    {
+      "train/loss": 1.0395837443387284,
+      "train/learning_rate": 3.157894736842105e-06,
+      "train/grad_norm": 9.864331245422363,
+      "epoch": 1,
+      "step": 3,
+      "train/tokens_per_second": 197.37042119215658,
+      "profile/step_seconds": 18.097615606035106,
+      "profile/peak_allocated_gib": 36.11945199966431,
+      "profile/peak_reserved_gib": 46.126953125,
+      "profile/allocated_gib": 29.72408437728882,
+      "profile/reserved_gib": 46.126953125
+    },
+    {
+      "train/loss": 0.87344799646132,
+      "train/learning_rate": 4.210526315789474e-06,
+      "train/grad_norm": 8.676819801330566,
+      "epoch": 1,
+      "step": 4,
+      "train/tokens_per_second": 201.6714316101713,
+      "profile/step_seconds": 17.381124026956968,
+      "profile/peak_allocated_gib": 36.246052265167236,
+      "profile/peak_reserved_gib": 46.126953125,
+      "profile/allocated_gib": 29.72408437728882,
+      "profile/reserved_gib": 46.126953125
+    },
+    {
+      "train/loss": 0.7376357931643724,
+      "train/learning_rate": 5.263157894736842e-06,
+      "train/grad_norm": 7.247851848602295,
+      "epoch": 1,
+      "step": 5,
+      "train/tokens_per_second": 228.0939054092417,
+      "profile/step_seconds": 17.968578533036634,
+      "profile/peak_allocated_gib": 36.16036605834961,
+      "profile/peak_reserved_gib": 46.126953125,
+      "profile/allocated_gib": 29.72408437728882,
+      "profile/reserved_gib": 46.126953125
+    }
+  ],
+  "notes": "Timings include profiler overhead and data loading; CUDA memory excludes allocations outside PyTorch."
+}
